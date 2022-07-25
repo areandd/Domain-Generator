@@ -1,3 +1,5 @@
+"use strict";
+
 document.querySelector("#button").addEventListener("click", () => {
   document.querySelector("#domain").innerHTML = domainName();
 });
